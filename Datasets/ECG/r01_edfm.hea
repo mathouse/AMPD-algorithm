@@ -1,0 +1,4 @@
+r01_edfm 1 0.2 60000 0:00 01/01/2011
+r01_edfm.mat 16+24 9.99984741211/uV 15 0 287 2425 0 Direct_1
+#Creator: wfdb2mat
+#Source: record adfecgdb/r01.edf  Start: [00:00:00.000 01/01/2011]
