@@ -9,7 +9,7 @@ ssnTime = Data(:,1);
 ssnTime = num2str(ssnTime);
 ssnTime = datenum(ssnTime,'yyyymm');
 
-ssnInd = ampd(-ssnSignal);
+ssnInd = ampd(ssnSignal);
 ssnMax = ssnSignal(ssnInd);
 ssnTim = ssnTime(ssnInd);
 

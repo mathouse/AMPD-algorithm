@@ -1,6 +1,6 @@
-% clear all
-% close all
-% clc
+clear all
+close all
+clc
 
 fs = 100;
 ifs = 100;
