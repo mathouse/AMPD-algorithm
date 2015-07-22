@@ -55,7 +55,8 @@ plot(x', ECGSignal');
 
 hold on;
 
-Indx = ampd(ECGSignal);
+% Indx = ampd(ECGSignal);
+[ ~ , Indx ] = ampd(ECGSignal, 'ecg');
 ECGPeaks = ECGSignal(Indx);
 ECGTimes = x(Indx);
 

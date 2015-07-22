@@ -20,7 +20,8 @@ lfhfratio = 0.5;
 
 
 ECGTime = (1:numel(ECGSignal))/fs;
-ECGPeaks = ampd(ECGSignal);
+% ECGPeaks = ampd(ECGSignal);
+[ ~ , ECGPeaks ] = ampd(ECGSignal,'ecg');
 
 fig = figure(1);
 
