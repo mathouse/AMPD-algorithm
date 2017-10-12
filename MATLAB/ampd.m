@@ -47,7 +47,7 @@ function varargout = ampd(Signal)
 
     for k=1:L
         for i=k+2:N-k+1
-            if(Signal(i-1)>Signal(i-k-1) && Signal(i-1)>Signal(i+k-1))
+            if(dtrSignal(i-1)>dtrSignal(i-k-1) && dtrSignal(i-1)>dtrSignal(i+k-1))
                 LSM(k,i) = 0;
             end
         end
